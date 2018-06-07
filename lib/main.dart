@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: new AppBar(
         title: new Text(widget.title),
       ),
-      body: buldBody(),
+      body: buildBody(),
       floatingActionButton: new FloatingActionButton(
         onPressed: _showNewNoteDialog,
         tooltip: 'Add',
@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget buldBody() {
+  Widget buildBody() {
     if (_models.length == 0) {
       return new Center(
       child: new Text("Click on '+' button to add a new card", style: Theme.of(context).textTheme.title),
