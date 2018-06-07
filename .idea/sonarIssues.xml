@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/lib/detail.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/lib/dialog.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/lib/main.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/lib/model.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/activity/profile_management/accounts/ReviewAccountsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/activity/profile_management/manage_accounts/AccountManagementSuccessActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/activity/profile_management/promptpay/ManagePromptpayLandingActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/adapter/DiffAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/adapter/profile_management/AccountManagementAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/adapter/profile_management/AccountManagementSuccessAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/adapter/profile_management/AddAccountsAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/adapter/profile_management/ReviewAccountsAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/item/ItemSuccessfulHeaderCustom.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AccountManagementHeaderCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AccountManagementItemCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AccountsEmptyCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountFooterCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountHeaderCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountItemCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountPendingCardCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddAccountSelectorCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddedAccountManagementSuccessFooterCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddedAccountManagementSuccessHeaderCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddedAccountManagementSuccessItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/AddedAccountManagementSuccessItemCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/ReviewAccountCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/ReviewAccountFooterCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/custom/profile_management/ReviewAccountItemCustomView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/profile_management/accounts/AddAccountsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/profile_management/accounts/ReviewAccountsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/profile_management/manage_accounts/AccountManagementFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/profile_management/manage_accounts/AccountManagementSuccessFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/profile_management/promtpay/PromptPayTermsAndConditionsLandingFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/java/com/scb/phone/view/fragment/transfer_and_pay/EditFavouriteFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/layout/custom_account_management_header.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/layout/custom_account_management_header_success.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/layout/custom_account_management_item.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/layout/custom_account_management_item_success.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/layout/toast_success.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/values/ccr_styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/data/src/main/java/com/scb/phone/data/network/service/ProfileService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/AddAccountsDisplayMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/DeleteRegisteredAccountRequestMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/ManagedAccountsDisplayMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/ReviewAccountsDisplayMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/SuccessAccountsDisplayMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/mapper/profile_management/UpdateRegisteredAccountRequestMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/AccountManagementDisplay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/AccountManagementSuccessDisplay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/ManagedAccountDisplay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/Empty.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/Footer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/Header.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/Item.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/ManagedAccountDisplay.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/PendingCard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/model/display/profile_management/account_management/Selector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/presenter/profile_management/AccountManagementPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/presenter/profile_management/AccountManagementSuccessPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/presenter/profile_management/accounts/AddAccountsPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/presenter/profile_management/accounts/ReviewAccountsPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/presenter/profile_management/promptpay/PromptpayTermsAndConditionsLandingPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/views/ProfileManageAccounts/AddAccountsView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/views/ProfileManageAccounts/ReviewAccountsView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/java/com/scb/phone/presentation/views/ProfileManagementView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/main/res/values-th/strings-manage-promptpay.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/test/java/com/scb/phone/presentation/presenter/profile_management/AccountManagementSuccessPresenterTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/test/java/com/scb/phone/presentation/presenter/profile_management/accounts/AddAccountsPresenterTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/office/android/repo/fasteasy-android/presentation/src/test/java/com/scb/phone/presentation/presenter/profile_management/promptpay/PromptpayTermsAndConditionsLandingPresenterTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/dummy.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
