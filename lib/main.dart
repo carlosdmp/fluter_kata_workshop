@@ -29,27 +29,15 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Model> _models = new List();
 
-  void _addCard(String name) {
-    if (name != null) {
-      setState(() {
-        _models.add(new Model(text: name, id: getNextId(_models)));
-      });
-    }
-  }
-
-  void deleteCard(int index) {
-      setState(() {
-        _models.removeAt(index);
-      });
-  }
-
-  void _showNewNoteDialog() {
-    showDialog<String>(context: context, builder: (_) => new NoteDialog())
-        .then(_addCard);
+  void _addCards() {
+    _models.clear();
+    _models.add(new Model(text: "Hello flutter", id: getNextId(_models)));
+    _models.add(new Model(text: "Bye android", id: getNextId(_models)));
   }
 
   @override
   Widget build(BuildContext context) {
+    _addCards();
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(widget.title),
@@ -57,35 +45,21 @@ class _MyHomePageState extends State<MyHomePage> {
       body: new ListView.builder(
         itemCount: _models.length,
         itemBuilder: (BuildContext context, int index) {
-          return GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                new MaterialPageRoute(builder: (context) => new DetailScreen(model: _models[index],)),
-              );
-            },
-            child: Dismissible(
-              key: new Key(_models[index].id.toString()),
-              onDismissed: (_) {
-                deleteCard(index);
-              },
-              child: new Card(
-                child: ListTile(
-                  title: new Text(_models[index].text),
-                  subtitle: new Text(
-                    "index: " + _models[index].id.toString(),
-                  ),
-                  leading: new CircleAvatar(
-                      child: new Text(_models[index].id.toString())),
-                  contentPadding: EdgeInsets.all(12.0),
-                ),
+          return new Card(
+            child: ListTile(
+              title: new Text(_models[index].text),
+              subtitle: new Text(
+                "index: " + _models[index].id.toString(),
               ),
+              leading: new CircleAvatar(
+                  child: new Text(_models[index].id.toString())),
+              contentPadding: EdgeInsets.all(12.0),
             ),
           );
         },
       ),
       floatingActionButton: new FloatingActionButton(
-        onPressed: _showNewNoteDialog,
+        onPressed: () {},
         tooltip: 'Add',
         child: new Icon(Icons.add),
       ),
