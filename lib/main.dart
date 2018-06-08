@@ -33,8 +33,15 @@ class _MyHomePageState extends State<MyHomePage> {
     if (name != null) {
       setState(() {
         _models.add(new Model(text: name, id: getNextId(_models)));
+        _sortCards();
       });
     }
+  }
+
+  void _sortCards(){
+      _models.sort((m1,m2) {
+        return m1.id.compareTo(m2.id);
+      });
   }
 
   void deleteCard(Model deletedModel) {
@@ -93,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     action: new SnackBarAction(label: "UNDO", onPressed: () {
                       setState(() {
                         _models.add(safeCopy);
+                        _sortCards();
                       });
                     }),)
               );
