@@ -29,77 +29,30 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<Model> _models = new List();
 
-  void _addCard(String name) {
-    if (name != null) {
-      setState(() {
-        _models.add(new Model(text: name, id: getNextId(_models)));
-      });
-    }
-  }
-
-  void deleteCard(int index) {
-    setState(() {
-      _models.removeAt(index);
-    });
-  }
-
-  void _showNewNoteDialog() {
-    showDialog<String>(context: context, builder: (_) => new NoteDialog())
-        .then(_addCard);
+  void _addCards() {
+    _models.clear();
+    _models.add(new Model(text: "Card 1", id: 1));
+    _models.add(new Model(text: "Card 2", id: 2));
   }
 
   @override
   Widget build(BuildContext context) {
+    _addCards();
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(widget.title),
       ),
-      body: buildBody(),
+      body: Column(
+        children: <Widget>[
+          new Text(_models[0].text),
+          new Text(_models[1].text),
+        ],
+      ),
       floatingActionButton: new FloatingActionButton(
-        onPressed: _showNewNoteDialog,
+        onPressed: () {},
         tooltip: 'Add',
         child: new Icon(Icons.add),
       ),
-    );
-  }
-
-  Widget buildBody() {
-    if (_models.length == 0) {
-      return new Center(
-      child: new Text("Click on '+' button to add a new card", style: Theme.of(context).textTheme.title),
-
-      );
-    }
-    return new ListView.builder(
-      itemCount: _models.length,
-      itemBuilder: (BuildContext context, int index) {
-        return GestureDetector(
-          onTap: () {
-            Navigator.push(
-              context,
-              new MaterialPageRoute(
-                  builder: (context) => new DetailScreen(
-                        model: _models[index],
-                      )),
-            );
-          },
-          child: Dismissible(
-            key: new Key(_models[index].id.toString()),
-            onDismissed: (_) {
-              deleteCard(index);
-            },
-            child: new Card(
-              child: ListTile(
-                  title: new Text(_models[index].text),
-                  subtitle: new Text(
-                    "index: " + _models[index].id.toString(),
-                  ),
-                  leading: new CircleAvatar(
-                      child: new Text(_models[index].id.toString()))),
-            ),
-          ),
-        );
-      },
     );
   }
 }
