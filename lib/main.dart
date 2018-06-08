@@ -57,28 +57,20 @@ class _MyHomePageState extends State<MyHomePage> {
       body: new ListView.builder(
         itemCount: _models.length,
         itemBuilder: (BuildContext context, int index) {
-          return GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                new MaterialPageRoute(builder: (context) => new DetailScreen(model: _models[index],)),
-              );
+          return Dismissible(
+            key: new Key(_models[index].id.toString()),
+            onDismissed: (_) {
+              deleteCard(index);
             },
-            child: Dismissible(
-              key: new Key(_models[index].id.toString()),
-              onDismissed: (_) {
-                deleteCard(index);
-              },
-              child: new Card(
-                child: ListTile(
-                  title: new Text(_models[index].text),
-                  subtitle: new Text(
-                    "index: " + _models[index].id.toString(),
-                  ),
-                  leading: new CircleAvatar(
-                      child: new Text(_models[index].id.toString())),
-                  contentPadding: EdgeInsets.all(12.0),
+            child: new Card(
+              child: ListTile(
+                title: new Text(_models[index].text),
+                subtitle: new Text(
+                  "index: " + _models[index].id.toString(),
                 ),
+                leading: new CircleAvatar(
+                    child: new Text(_models[index].id.toString())),
+                contentPadding: EdgeInsets.all(12.0),
               ),
             ),
           );
