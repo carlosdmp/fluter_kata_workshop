@@ -37,9 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  void deleteCard(int index) {
+  void deleteCard(Model deletedModel) {
     setState(() {
-      _models.removeAt(index);
+      _models.remove(deletedModel);
     });
   }
 
@@ -86,7 +86,17 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Dismissible(
             key: new Key(_models[index].id.toString()),
             onDismissed: (_) {
-              deleteCard(index);
+              Model safeCopy =Model.from(_models[index]);
+              deleteCard(_models[index]);
+              Scaffold.of(context).showSnackBar(
+                  new SnackBar(content: new Text("You deleted a card"),
+                    action: new SnackBarAction(label: "UNDO", onPressed: () {
+                      setState(() {
+                        _models.add(safeCopy);
+                      });
+                    }),)
+              );
+
             },
             child: new Card(
               child: ListTile(
