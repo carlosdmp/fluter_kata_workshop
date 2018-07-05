@@ -1,6 +1,6 @@
 # flutter_kata
 
-A new Flutter application.
+A flutter exercise app, there are some steps for the kata that we will do.
 
 ## Getting Started
 
